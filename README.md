@@ -29,11 +29,11 @@ You will need a [Supabase](https://supabase.com/) account to host the database.
 Create a new project in Supabase Go to the SQL Editor in your Supabase dashboard and run the setup.sq Enable "Realtime" for the flowers table in your Database settings.
 
 ### Configure your API Keys:
-1.Open index.html.
-2.Locate the Supabase configuration section:
+* Open index.html.
+* Locate the Supabase configuration section:
 const supabaseUrl = "YOUR_SUPABASE_URL_HERE";
 const supabaseKey = "YOUR_SUPABASE_ANON_KEY_HERE";
-3.Run the project:
+* Run the project:
 Simply open index.html in any modern web browser, or use a tool like Live Server in VS Code.
 
 ⚠️ A Note on Your API Keys
